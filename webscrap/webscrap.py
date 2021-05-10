@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 # Импортируем модуль errors
 from urllib.error import HTTPError
 # Импортируем "прекрасный суп"
