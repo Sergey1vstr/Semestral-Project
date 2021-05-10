@@ -38,12 +38,12 @@ def search(KeyWords, page_size, earliest_date=None, latest_date=None):
         The size of page == the number of results shown in one page
         Possible values: 20, 50, 100
 
-    earliest_date : str, optional
+    earliest_date : str, default=None
         The earliest date to search for articles from
         The format is as follows: 4 digits for year, 2 digits for month and two digits for day - "20210407"
         NOTE!!! If earliest_date is given, the argument "latest_date" must be given too
 
-    latest_date : str, optional
+    latest_date : str, optional, default=None
         The date articles are searched to
         The format is as follows: 4 digits for year, 2 digits for month and two digits for day - "20210407"
     """
